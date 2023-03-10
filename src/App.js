@@ -7,6 +7,7 @@ import Body from "./components/Body";
 
 function App() {
   const [nasaData, setNasaData] = useState([]);
+  const [selectedOption, setSelectedOption] = useState("title");
 
   useEffect(() => {
     axios
@@ -33,7 +34,7 @@ function App() {
           id="github"
           onClick={() => (window.location.href = `https://github.com/k5709`)}
         >
-          My GitHub!
+          My GitHub! 👩‍💻
         </button>
         <button
           className="footer-buttons"
@@ -41,7 +42,7 @@ function App() {
             (window.location.href = `https://www.linkedin.com/in/kristian-rosales/`)
           }
         >
-          My LinkedIn!
+          My LinkedIn! 😎
         </button>
       </footer>
     </div>
