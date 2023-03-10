@@ -12,9 +12,9 @@ export default function Body(props) {
         <h2>{nasaData.date}</h2>
         <img alt="APOTD" className="nasa-image" src={nasaData.url} />
         <StyledDetails>
-          <p>{nasaData.explanation}</p>
+          <p className="nasa-explanation">{nasaData.explanation}</p>
         </StyledDetails>
-        <p>{nasaData.copyright}</p>
+        <h2> Author: {nasaData.copyright}</h2>
       </StyledComponent>
     </div>
   );

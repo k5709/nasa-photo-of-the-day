@@ -1,5 +1,9 @@
 .App {
+  display: flex;
   text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: beige;
 }
 
 .App-link {
@@ -15,22 +19,23 @@
   }
 }
 .nasa-image{
-  display: flex;
-  justify-content: center;
-  align-items: center ;
-   width: 60%;
-   padding-left: 20%;
+max-width: 100%;
+height: auto;
 }
 .connect-footer{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
+display: flex;
+flex-direction: column;
+margin: 10px;
+padding-bottom: 2em;
 }
 .footer-buttons{
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-  width: 15%;
+margin: 10px;
+height: auto;
+width: 100%;
+}
+.nasa-explanation{
+  font-size: x-large;
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
 }
