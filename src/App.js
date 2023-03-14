@@ -25,8 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <Body nasaData={nasaData} />
-      <footer className="connect-footer">
+      <header className="connect-footer">
         <h2>Visit or Connect with me!</h2>
         <h3 className="footer-buttons">Email: r.kristian40@gmail.com</h3>
         <button
@@ -44,7 +43,8 @@ function App() {
         >
           My LinkedIn! 😎
         </button>
-      </footer>
+      </header>
+      <Body nasaData={nasaData} />
     </div>
   );
 }
